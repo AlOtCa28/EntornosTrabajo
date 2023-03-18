@@ -7,6 +7,7 @@ fun main(){
     println(suma(n1,n2))
     println(resta(n1,n2))
     println(multiplicacion(n1,n2))
+    println(division(n1,n2))
 }
 fun suma(n1:Int,n2:Int):Int{
     var resultado = 0
@@ -23,5 +24,11 @@ fun resta(n1:Int,n2:Int):Int{
 fun multiplicacion(n1:Int,n2:Int):Int{
     var resultado = 0
     resultado = n1 * n2
+    return resultado
+}
+
+fun division(n1:Int,n2:Int):Int{
+    var resultado = 0
+    resultado = n1 / n2
     return resultado
 }
