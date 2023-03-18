@@ -32,3 +32,9 @@ fun division(n1:Int,n2:Int):Int{
     resultado = n1 / n2
     return resultado
 }
+fun resta2(n1:Int,n2:Int):Int{
+    var resultado = 0
+    resultado = n1 - n2
+    return resultado
+}
+
